@@ -1,0 +1,25 @@
+<label> Deetalles del Pokemon </label>
+<div>
+    <h3>Habilidades</h3>
+    <ul>
+        <li *ngFor="let habilidad of pokemon.abilities">
+            <b>Nombre: </b> {{habilidad.ability.name}}
+        </li>
+    </ul>
+    <hr>
+    <h3>Formas</h3>
+    <ul>
+        <li *ngFor="let form of pokemon.forms">
+            <b>Nombre: </b> {{form.name}}
+        </li>
+    </ul>
+    <hr>
+    <h3>Estadisticas</h3>
+    <ul>
+        <li *ngFor="let stat of pokemon.stats">
+            <b>Nombre: </b> {{stat.stat.name}} <br>
+            <b>Valor: </b> {{stat.base_stat}}
+        </li>
+    </ul>
+    <hr>
+</div>

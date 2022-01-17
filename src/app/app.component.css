@@ -1,0 +1,11 @@
+.btnPokemon {
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
